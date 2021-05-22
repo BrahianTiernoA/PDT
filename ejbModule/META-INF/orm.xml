@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity-mappings version="2.2" xmlns="http://xmlns.jcp.org/xml/ns/persistence/orm" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence/orm http://xmlns.jcp.org/xml/ns/persistence/orm_2_2.xsd">
+	<persistence-unit-metadata>
+		<persistence-unit-defaults>
+			<access>FIELD</access>
+		</persistence-unit-defaults>
+	</persistence-unit-metadata>
+	<entity class="entities.Usuario" access="FIELD">
+		<table name="USUARIOS">
+		</table>
+	</entity>
+	<entity class="entities.Rol" access="FIELD">
+		<table name="ROLES">
+		</table>
+	</entity>
+	<entity class="entities.Funcionalidad" access="FIELD">
+		<table name="FUNCIONALIDADES">
+		</table>
+	</entity>
+	<entity class="entities.Formulario" access="FIELD">
+		<table name="FORMULARIOS">
+		</table>
+	</entity>
+	<entity class="entities.Casilla" access="FIELD">
+		<table name="CASILLAS">
+		</table>
+	</entity>
+</entity-mappings>
